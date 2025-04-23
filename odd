@@ -1,0 +1,9 @@
+echo "enter a number:"
+read n
+rem=$(($n%2))
+if [ $rem -eq 0 ]
+then
+echo "The no. is even"
+else
+echo "The no. is odd"
+fi
